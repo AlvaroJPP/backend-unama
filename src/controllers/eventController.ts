@@ -1,6 +1,6 @@
-import { Request, Response } from "express";
-import { pool } from "../config/db.js";
-import { Event } from "../types/index.js";
+import type{ Request, Response } from "express";
+import { pool } from "../config/db.ts";
+import type{ Event } from "../types/index.ts";
 
 export const getEvents = async (_req: Request, res: Response) => {
   try {

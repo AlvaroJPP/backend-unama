@@ -1,6 +1,7 @@
-import { Request, Response } from "express";
-import { pool } from "../config/db.js";
-import { User } from "../types/index.js";
+
+import type { Request, Response } from "express";
+import { pool } from "../config/db.ts";
+import type { User } from "../types/index.ts";
 
 export const getUsers = async (_req: Request, res: Response) => {
   try {

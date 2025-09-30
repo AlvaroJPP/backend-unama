@@ -1,6 +1,6 @@
-import { Request, Response } from "express";
-import { pool } from "../config/db.js";
-import { Category } from "../types/index.js";
+import type{ Request, Response } from "express";
+import { pool } from "../config/db.ts";
+import type{ Category } from "../types/index.ts";
 
 export const getCategories = async (_req: Request, res: Response) => {
   try {

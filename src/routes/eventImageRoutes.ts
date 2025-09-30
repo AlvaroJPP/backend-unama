@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getEventImages, getEventImageById, createEventImage, updateEventImage, deleteEventImage } from "../controllers/eventImageController.js";
+import { getEventImages, getEventImageById, createEventImage, updateEventImage, deleteEventImage } from "../controllers/eventImageController.ts";
 
 const router = Router();
 

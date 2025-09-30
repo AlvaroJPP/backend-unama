@@ -2,12 +2,12 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 
-import userRoutes from "./routes/userRoutes.js";
-import organizationRoutes from "./routes/organizationRoutes.js";
-import categoryRoutes from "./routes/categoryRoutes.js";
-import eventRoutes from "./routes/eventRoutes.js";
-import eventImageRoutes from "./routes/eventImageRoutes.js";
-import commentRoutes from "./routes/commentRoutes.js";
+import userRoutes from "./routes/userRoutes.ts";
+import organizationRoutes from "./routes/organizationRoutes.ts";
+import categoryRoutes from "./routes/categoryRoutes.ts";
+import eventRoutes from "./routes/eventRoutes.ts";
+import eventImageRoutes from "./routes/eventImageRoutes.ts";
+import commentRoutes from "./routes/commentRoutes.ts";
 
 dotenv.config();
 

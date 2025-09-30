@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getOrganizations, getOrganizationById, createOrganization, updateOrganization, deleteOrganization } from "../controllers/organizationController.js";
+import { getOrganizations, getOrganizationById, createOrganization, updateOrganization, deleteOrganization } from "../controllers/organizationController.ts";
 
 const router = Router();
 

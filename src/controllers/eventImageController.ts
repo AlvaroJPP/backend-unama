@@ -1,6 +1,6 @@
-import { Request, Response } from "express";
-import { pool } from "../config/db.js";
-import { EventImage } from "../types/index.js";
+import type { Request, Response } from "express";
+import { pool } from "../config/db.ts";
+import type { EventImage } from "../types/index.ts";
 
 export const getEventImages = async (_req: Request, res: Response) => {
   try {
